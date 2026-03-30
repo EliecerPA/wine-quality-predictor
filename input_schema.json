@@ -1,0 +1,96 @@
+{
+  "features": [
+    {
+      "name": "fixed acidity",
+      "min": 3.8,
+      "max": 15.9,
+      "p05": 5.7,
+      "p95": 9.8,
+      "median": 7.0
+    },
+    {
+      "name": "volatile acidity",
+      "min": 0.08,
+      "max": 1.58,
+      "p05": 0.16,
+      "p95": 0.67,
+      "median": 0.29
+    },
+    {
+      "name": "citric acid",
+      "min": 0.0,
+      "max": 1.66,
+      "p05": 0.05,
+      "p95": 0.56,
+      "median": 0.31
+    },
+    {
+      "name": "residual sugar",
+      "min": 0.6,
+      "max": 65.8,
+      "p05": 1.2,
+      "p95": 15.0,
+      "median": 3.0
+    },
+    {
+      "name": "chlorides",
+      "min": 0.009,
+      "max": 0.611,
+      "p05": 0.028,
+      "p95": 0.102,
+      "median": 0.047
+    },
+    {
+      "name": "free sulfur dioxide",
+      "min": 1.0,
+      "max": 289.0,
+      "p05": 6.0,
+      "p95": 61.0,
+      "median": 29.0
+    },
+    {
+      "name": "total sulfur dioxide",
+      "min": 6.0,
+      "max": 440.0,
+      "p05": 19.0,
+      "p95": 206.0,
+      "median": 118.0
+    },
+    {
+      "name": "density",
+      "min": 0.9871,
+      "max": 1.039,
+      "p05": 0.9899,
+      "p95": 0.9994,
+      "median": 0.9949
+    },
+    {
+      "name": "pH",
+      "min": 2.72,
+      "max": 4.01,
+      "p05": 2.97,
+      "p95": 3.5,
+      "median": 3.21
+    },
+    {
+      "name": "sulphates",
+      "min": 0.22,
+      "max": 2.0,
+      "p05": 0.35,
+      "p95": 0.79,
+      "median": 0.51
+    },
+    {
+      "name": "alcohol",
+      "min": 8.0,
+      "max": 14.9,
+      "p05": 9.0,
+      "p95": 12.7,
+      "median": 10.3
+    }
+  ],
+  "tipo": [
+    "red",
+    "white"
+  ]
+}
