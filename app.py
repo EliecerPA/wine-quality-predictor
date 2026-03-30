@@ -111,6 +111,9 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+st.caption("Modelo CatBoost entrenado sobre 6.492 muestras. Desempeño en test: RMSE 0.58 · MAE 0.39 · R² 0.55.")
+st.warning("Esta herramienta es demostrativa y muestra asociaciones predictivas del dataset; no establece causalidad.")
+
 with st.expander("📖 ¿De qué trata esto? (léeme si es tu primera vez)", expanded=False):
     st.markdown("""
     ### El experimento
@@ -132,11 +135,11 @@ with st.expander("📖 ¿De qué trata esto? (léeme si es tu primera vez)", exp
     Entrenamos un modelo de Machine Learning (CatBoost) y aplicamos tres métodos de
     interpretabilidad independientes. Los tres coinciden en lo mismo:
 
-    > **El contenido de alcohol es la variable más relevante para predecir la calidad del vino.**
+    > **En este estudio, el contenido de alcohol fue la variable individual más relevante para la predicción de la calidad del vino.**
 
-    Esto no significa que un vino de alta graduación sea automáticamente bueno,
-    pero sí que el alcohol es la señal fisicoquímica más informativa que captan
-    los catadores, consciente o inconscientemente.
+    Esto no significa que un vino con más alcohol sea automáticamente mejor, 
+    sino que, dentro de este dataset, el alcohol aparece como la variable fisicoquímica 
+    individual más informativa para predecir la nota asignada por el panel de cata.
 
     ### Cómo usar esta app
 
@@ -313,8 +316,8 @@ with tab3:
         los azules (alcohol bajo) a la izquierda (−).
         La separación es la más clara de todas las variables.
 
-        **Efecto del alcohol:** A partir de ~11% vol el alcohol
-        empieza a sumar nota consistentemente, tanto en tintos como en blancos.
+        **Efecto del alcohol:** En el modelo, valores más altos de alcohol
+        se asocian con predicciones de calidad mayores, tanto en vinos tintos como blancos..
         """)
 
 st.divider()
