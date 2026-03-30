@@ -213,7 +213,9 @@ with btn_col:
     predecir = st.button("🍷 Predecir calidad", type="primary", use_container_width=True)
     if st.button("↺ Restaurar medianas", use_container_width=True):
         for feat in FEATURES:
-            st.session_state[f"slider_{feat}"] = float(feat_map[feat]["median"])
+            key = f"slider_{feat}"
+            if key in st.session_state:
+                del st.session_state[key]
         st.rerun()
 
 if predecir:
