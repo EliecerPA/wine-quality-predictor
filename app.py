@@ -325,7 +325,7 @@ st.markdown(
     "<b>Dataset:</b> Cortez et al. (2009) · UCI Wine Quality · "
     "<b>Modelo:</b> CatBoost + Optuna · "
     "<b>Interpretabilidad:</b> Feature Importance + Permutation Importance + SHAP<br>"
-    "Universidad Bernardo O'Higgins · Facultad de Ingeniería y Negocios"
+    "Universidad Bernardo O'Higgins ·  Facultad de Ingeniería, Ciencia y Tecnología "
     "</div>",
     unsafe_allow_html=True,
 )
